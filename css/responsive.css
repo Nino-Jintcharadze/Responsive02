@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+	.nav-ul,
+	.li-2,
+	.div-icons {
+		display: none;
+	 }
+	 .burger {
+	 	display: block;
+	 }
+}

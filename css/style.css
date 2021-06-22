@@ -1,0 +1,98 @@
+body {
+	height: 2000px;
+}
+header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: white;
+}
+.header {
+	max-width: 1300px;
+	width: 100%;
+	align-items: center;
+	height: 91px;
+	display: flex;
+	justify-content: space-around;
+}
+.logo,
+.li {
+	font-family: 'Montserrat';
+	color: #202126;
+	text-transform: uppercase;
+}
+.logo {
+	font-weight: bolder;
+	font-size: 16px;
+}
+.li {
+	font-size: 13px;
+}
+.nav-ul {
+	display: flex;
+}
+.li {
+	margin-left: 40px;
+}
+.li-2 {
+	margin-left: 100px;
+	/*gamoaswore*/
+}
+.icons {
+	margin-left: 10px;
+}
+.div-icons:first-child img {
+	/*margin-left: 71px;*/
+}
+.burger {
+	display: none;
+}
+/*Section one*/
+
+h1 {
+	max-width: 145px;
+	width: 100%;
+	font-size: 25px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 150px;
+	margin-left: 117px;
+}
+.main-div {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.box {
+	max-width: 272px;
+	width: 100%;
+	height: 325px;
+	border-radius: 15px;
+	background-color: #202126;
+	padding-left: 12px;
+}
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Montserrat';
+	margin-top: 29px;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+	color: #fff;
+}
+.box-text {
+	font-family: 'Open Sans';
+	color: #D5D5D5;
+	font-size: 14px;
+	margin-bottom: 70px;
+}
+.box:hover .box-text{
+	color: #202126;
+}
+.box:hover h2 {
+	color: #202126;
+}
+.box:hover {
+	background-color: #D7BE69;
+}
